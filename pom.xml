@@ -93,6 +93,7 @@
 		<module>spring-cloud-deployer-local</module>
 		<module>spring-cloud-deployer-kubernetes</module>
 		<module>spring-cloud-deployer-cloudfoundry</module>
+		<module>spring-cloud-deployer-containerapps</module>
 	</modules>
 
 	<dependencyManagement>
