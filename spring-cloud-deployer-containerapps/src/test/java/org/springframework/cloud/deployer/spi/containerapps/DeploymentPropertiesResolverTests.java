@@ -83,7 +83,7 @@ public class DeploymentPropertiesResolverTests {
 
 	/*
 	 * json structured registries fail to bind with the standard spring Binder
-	 * Assert that setting a structured secrets definition via string resolves correctly.
+	 * Assert that setting a structured registries definition via string resolves correctly.
 	 */
 	@Test
 	public void testResitriesStringDefinition() {

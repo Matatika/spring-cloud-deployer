@@ -233,6 +233,9 @@ public class ContainerAppsDeployerProperties {
 	    private String identity;
 	    private String keyVaultUrl;
 
+	    // required for Spring Binder
+	    public Secret() {}
+
 		public Secret(String name, String value, String identity, String keyVaultUrl) {
 			super();
 			this.name = name;
@@ -274,6 +277,9 @@ public class ContainerAppsDeployerProperties {
 	    private String username;
 	    private String passwordSecretRef;
 	    private String identity;
+
+	    // required for Spring Binder
+	    public RegistryCredentials() {}
 
 		public RegistryCredentials(
 				String server, 
