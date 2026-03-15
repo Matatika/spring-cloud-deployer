@@ -14,7 +14,7 @@ public class ContainerAppsStatusUtil {
     *
     * RUNNING means at least one container is still running or is in the process of being restarted.
     * 
-    * @param app the app to return the running status for
+    * @param appRevision the app to return the running status for
     * @return returns true if the app is running
     */
    public static boolean isRunning(RevisionInner appRevision) {
@@ -46,7 +46,7 @@ public class ContainerAppsStatusUtil {
     *
     * RUNNING means at least one container is still running or is in the process of being restarted.
     * 
-    * @param app the app to return the running status for
+    * @param jobExecution the job execution to return the running status for
     * @return returns true if the app is running
     */
    public static boolean isRunning(JobExecutionInner jobExecution) {

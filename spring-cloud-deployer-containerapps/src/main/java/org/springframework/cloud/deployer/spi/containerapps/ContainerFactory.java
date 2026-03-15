@@ -4,7 +4,7 @@ import com.azure.resourcemanager.appcontainers.models.JobTemplate;
 import com.azure.resourcemanager.appcontainers.models.Template;
 
 /**
- * Defines how a Container app {@link Container} is created.
+ * Defines how a Container app container is created.
  *
  * @author Aaron Phethean
  */
